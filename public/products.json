@@ -1,0 +1,44 @@
+[
+  {
+    "Title": "LED Headlight",
+    "Id": "HL001",
+    "Price": 59.99,
+    "Ratings": 4.7,
+    "ImageUrl": "https://carwow-uk-wp-3.imgix.net/VX_COR_29952-scaled.jpg?auto=format&cs=tinysrgb&fit=crop&h=&ixlib=rb-1.1.0&q=60&w=1600"
+  },
+  {
+    "Title": "All-Season Tyre",
+    "Id": "TY002",
+    "Price": 89.99,
+    "Ratings": 4.5,
+    "ImageUrl": "https://di-uploads-pod5.dealerinspire.com/mccluskeychevy/uploads/2023/04/summer-tire-dealer-butterflies-tire-1.jpg"
+  },
+  {
+    "Title": "Engine Spark Plug",
+    "Id": "SP003",
+    "Price": 15.49,
+    "Ratings": 4.8,
+    "ImageUrl": "https://www.gilsgarage.com/Files/Documents/AdobeStock_286942688.jpeg"
+  },
+  {
+    "Title": "Brake Pads",
+    "Id": "BP004",
+    "Price": 34.99,
+    "Ratings": 4.6,
+    "ImageUrl": "https://cdn.shopify.com/s/files/1/0765/4309/9184/files/pads-vs-shoes-scaled.jpg"
+  },
+  {
+    "Title": "Windshield Wiper Blades",
+    "Id": "WB005",
+    "Price": 12.99,
+    "Ratings": 4.4,
+    "ImageUrl": "https://images.roverparts.com/1000/PRC9841K-01.jpg"
+  },
+  {
+    "Title": "Car Battery",
+    "Id": "CB006",
+    "Price": 129.99,
+    "Ratings": 4.9,
+    "ImageUrl": "https://images.tayna.com/prod-images/1200/Powerline/065-powerline-45-435.jpg"
+  }
+]
