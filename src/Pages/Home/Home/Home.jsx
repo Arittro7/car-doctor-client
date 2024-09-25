@@ -5,6 +5,7 @@ import Services from '../Service/Services';
 import Infobar from '../Infobar/Infobar';
 import Products from '../Products/Products';
 import Teams from '../Team/Teams';
+import ChooseUs from '../ChooseUs/ChooseUs';
 
 const Home = () => {
 
@@ -16,6 +17,7 @@ const Home = () => {
       <Infobar></Infobar>
       <Products></Products>
       <Teams></Teams>
+      <ChooseUs></ChooseUs>
     </div>
   );
 };
