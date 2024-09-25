@@ -13,8 +13,8 @@ const Services = () => {
 
   return (
     <div className="text-center space-y-5">
-      <h2 className="mt-32 text-orange-500">Service</h2>
-      <h2 className="text-4xl">Our Service Area</h2>
+      <h2 className="mt-32 text-orange-500 font-bold">Service</h2>
+      <h2 className="text-4xl font-bold">Our Service Area</h2>
       <p className="mb-16">The majority have suffered alteration in some form, by injected humour, or randomised <br /> words which don't look even slightly believable.</p>
       
       <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-6">

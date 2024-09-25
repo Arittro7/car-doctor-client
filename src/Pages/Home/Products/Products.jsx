@@ -14,9 +14,9 @@ const Products = () => {
 
   return (
     <div className="text-center space-y-5">
-      <h2 className="mt-32 text-orange-500">Popular Products</h2>
+      <h2 className="mt-32 text-orange-500 font-bold">Popular Products</h2>
 
-      <h2 className="text-4xl">Browser Our Products</h2>
+      <h2 className="text-4xl font-bold">Browser Our Products</h2>
       <p className="mb-16">The majority have suffered alteration in some form, by injected humour, or randomised <br /> words which don't look even slightly believable.</p>      
       <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-6">
        {
