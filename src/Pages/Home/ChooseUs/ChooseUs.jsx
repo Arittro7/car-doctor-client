@@ -19,7 +19,7 @@ const ChooseUs = () => {
         </div>
         <div>
         <Lottie className="w-24" animationData={clock}/>
-        <h2 className="font-bold">Timely Delivery</h2>
+        <h2 className="font-bold">Fastest Repair</h2>
         </div>
         <div>
         <Lottie className="w-24" animationData={spt}/>

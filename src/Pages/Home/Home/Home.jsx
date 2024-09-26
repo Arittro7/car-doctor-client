@@ -6,6 +6,7 @@ import Infobar from '../Infobar/Infobar';
 import Products from '../Products/Products';
 import Teams from '../Team/Teams';
 import ChooseUs from '../ChooseUs/ChooseUs';
+import Testimonial from '../Testimonial/Testimonial';
 
 const Home = () => {
 
@@ -18,6 +19,7 @@ const Home = () => {
       <Products></Products>
       <Teams></Teams>
       <ChooseUs></ChooseUs>
+      <Testimonial></Testimonial>
     </div>
   );
 };

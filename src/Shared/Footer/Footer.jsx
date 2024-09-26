@@ -1,8 +1,11 @@
 import logo from "../../assets/icons/logoCD.png";
+import { AiFillTwitterCircle, AiFillGoogleCircle } from "react-icons/ai";
+import { FaLinkedin } from "react-icons/fa6";
+import { RiInstagramFill } from "react-icons/ri";
 
 const Footer = () => {
   return (
-    <footer className="footer bg-base-200 text-base-content p-10">
+    <footer className="footer mt-20 bg-black text-white p-10">
       <aside>
         <img className="h-28" src={logo} alt="" />
         <p>
@@ -10,6 +13,12 @@ const Footer = () => {
           <br />
           Providing reliable service since 2007
         </p>
+        <div className="flex text-3xl justify-center space-x-3">
+    <AiFillGoogleCircle className="text-white"></AiFillGoogleCircle>
+    <AiFillTwitterCircle className="text-white"></AiFillTwitterCircle>
+    <FaLinkedin className="text-white rounded-full"></FaLinkedin>
+    <RiInstagramFill className="text-white"></RiInstagramFill>
+  </div>
       </aside>
       <nav>
         <h6 className="footer-title">Services</h6>
