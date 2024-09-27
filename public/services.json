@@ -1,6 +1,5 @@
 [
     {
-        "_id": "635a0c0b64a6d231228942ae",
         "service_id": "04",
         "title": "Engine Oil Change",
         "img": "https://images.unsplash.com/photo-1487754180451-c456f719a1fc?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -26,7 +25,6 @@
         ]
     },
     {
-        "_id": "635a0c0b64a6d231228942af",
         "service_id": "05",
         "title": "Battery Charge",
         "img": "https://plus.unsplash.com/premium_photo-1682141938795-6f878eb81834?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -52,7 +50,6 @@
         ]
     },
     {
-        "_id": "635b591a1dafe382a9da8c96",
         "service_id": "01",
         "title": "Full car Repair",
         "img": "https://plus.unsplash.com/premium_photo-1682141938795-6f878eb81834?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -78,7 +75,6 @@
         ]
     },
     {
-        "_id": "635b5afc1dafe382a9da8c98",
         "service_id": "02",
         "title": "Engine Repair",
         "img": "https://plus.unsplash.com/premium_photo-1674375348357-a25140a68bbd?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -104,7 +100,6 @@
         ]
     },
     {
-        "_id": "635b5b691dafe382a9da8c99",
         "service_id": "03",
         "title": "Automatic Services",
         "img": "https://plus.unsplash.com/premium_photo-1674375344746-2f27c4720440?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -130,7 +125,6 @@
         ]
     },
     {
-        "_id": "635b5ba51dafe382a9da8c9a",
         "service_id": "06",
         "title": "Electrical System",
         "img": "https://plus.unsplash.com/premium_photo-1674375346314-bfc33dd9cadd?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",

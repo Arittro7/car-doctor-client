@@ -6,7 +6,7 @@ const Teams = () => {
 
   const [teams, setTeams] = useState([]);
   useEffect(()=>{
-    fetch('teams.json')
+    fetch('http://localhost:5000/teams')
     .then(res => res.json())
     .then(data => setTeams(data))
   },[])

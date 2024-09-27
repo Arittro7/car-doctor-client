@@ -18,10 +18,10 @@ const TeamCard = ({team}) => {
     <div className="text-2xl place-items-center">{WorkingField}</div>
   </div>
   <div className="flex text-3xl justify-center space-x-3">
-    <FaFacebook className="text-blue-800"></FaFacebook>
-    <AiFillTwitterCircle className="text-blue-500"></AiFillTwitterCircle>
-    <FaLinkedin className="text-blue-700 rounded-full"></FaLinkedin>
-    <RiInstagramFill className="text-[#ef4862]"></RiInstagramFill>
+    <button><FaFacebook className="text-blue-800"></FaFacebook></button>
+    <button><AiFillTwitterCircle className="text-blue-500"></AiFillTwitterCircle></button>
+    <button><FaLinkedin className="text-blue-700 rounded-full"></FaLinkedin></button>
+    <button><RiInstagramFill className="text-[#ef4862]"></RiInstagramFill></button>
   </div>
 </div>
   );
