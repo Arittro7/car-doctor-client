@@ -4,33 +4,35 @@ import { useContext } from "react";
 import { AuthContext } from "../../Providers/AuthProvider";
 import axios from "axios";
 const Login = () => {
-
-  const {signIn} = useContext(AuthContext)
-  const location = useLocation()
+  const { signIn } = useContext(AuthContext);
+  const location = useLocation();
   // console.log(location);
-  const navigate = useNavigate()
+  const navigate = useNavigate();
 
   const handleLogin = (event) => {
     event.preventDefault();
-    const form  = event.target;
+    const form = event.target;
     const email = form.email.value;
     const password = form.password.value;
     // console.log(email, password);
+
     signIn(email, password)
-    .then(result => {
-      const  LoggedInUser = result.user;
-      console.log(LoggedInUser);
-      const user = {email}
-      // access token 
-      axios.post('http://localhost:5000/jwt', user, {withCredentials: true})
-      .then(res => {
-        console.log(res.data);
-        if(res.data.success){
-          navigate(location?.state ? location?.state : '/')
-        }
+      .then(result => {
+        const loggedInUser = result.user;
+        console.log(loggedInUser);
+        const user = { email };
+        // access token
+        axios
+          .post("http://localhost:5000/jwt", user, {withCredentials: true})
+          // .post("http://localhost:5000/jwt", user, { withCredentials: true })
+          .then(res => {
+            console.log(res.data);
+            if (res.data.success) {
+              navigate(location?.state ? location?.state : "/");
+            }
+          });
       })
-    })
-    .catch(error => console.log(error))
+      .catch((error) => console.log(error));
   };
 
   return (
@@ -72,11 +74,19 @@ const Login = () => {
               </label>
             </div>
             <div className="form-control mt-6">
-              <input className="btn btn-primary border-none bg-orange-500" type="submit" value="Login" />
+              <input
+                className="btn btn-primary border-none bg-orange-500"
+                type="submit"
+                value="Login"
+              />
             </div>
           </form>
-          <p className="text-center mb-6">New at Car Doctor ? <Link className="text-orange-500" to="/signup">SignUp</Link></p>
-          
+          <p className="text-center mb-6">
+            New at Car Doctor ?{" "}
+            <Link className="text-orange-500" to="/signup">
+              SignUp
+            </Link>
+          </p>
         </div>
       </div>
     </div>
